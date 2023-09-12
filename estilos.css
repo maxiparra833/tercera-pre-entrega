@@ -1,0 +1,275 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background: #fff;
+  height: 100%;
+}
+
+.conteiner {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.container_nosotros {
+  padding-top: 15%;
+}
+
+.section-padding {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+
+.section-padding2 {
+  padding-bottom: 30px;
+}
+
+.contact {
+  justify-content: center;
+}
+
+.crousel-item {
+  height: 80vh;
+  min-height: 200px;
+}
+
+.carousel-caption {
+  z-index: 2;
+}
+
+.carousel-caption h5 {
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.crousel-inner::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.856);
+  z-index: 1;
+}
+
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-dark .navabr-bard {
+  color: #fff;
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navabr-brand:focus, .navbar-light .navabr-bard:hover {
+  color: #000;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+.navar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.card-body {
+  height: 350px;
+  width: 300px;
+  justify-content: center;
+  align-self: center;
+}
+
+.card-body img {
+  height: 300px;
+  width: 100%;
+}
+
+.boton_info {
+  width: 60%;
+  align-self: center;
+}
+
+.services .card-body i {
+  font-size: 50px;
+}
+
+.team .card-body i {
+  font-size: 20px;
+}
+
+.titulo_formulario {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+  line-height: 1.9;
+  background-color: rgb(30, 29, 29);
+  margin-bottom: 30px;
+  border-radius: 10px;
+  margin-top: 15%;
+}
+
+.row {
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .navabr-nav {
+    text-align: center;
+  }
+  .navbar-item {
+    height: 70vh;
+  }
+  .w-100 {
+    height: 90vh;
+  }
+  .carousel-item {
+    height: 400px;
+  }
+  .carousel-item img {
+    max-height: 400px;
+  }
+  .carousel-caption {
+    bottom: 125px;
+  }
+  .carousel-caption h5 {
+    font-size: 17px;
+    background-color: #000;
+    border-radius: 10%;
+  }
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 12px;
+    background-color: #000;
+    border-radius: 10%;
+  }
+  .about-text {
+    padding-top: 5opx;
+  }
+}
+.user_logo {
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 30%;
+  margin-right: 1%;
+}
+
+.navbar {
+  background-color: rgb(97, 51, 19);
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.nav-link {
+  color: #fff !important;
+}
+
+.jumbotron {
+  height: 400px;
+  width: 100%;
+  background-image: url(img/15487-cafe.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: brightness(75%);
+  text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+}
+
+h2 {
+  text-align: center;
+  background-color: rgb(30, 29, 29);
+  color: #000;
+  padding: 30px;
+}
+
+.carousel {
+  justify-content: center !important;
+  height: 800px;
+  width: 100%;
+}
+
+article {
+  border: 3px solid #000;
+  background-color: #fff;
+  text-align: center;
+  font-size: 40px;
+}
+
+/*footer*/
+footer {
+  display: grid;
+  place-items: center;
+  padding: 50px 0;
+  height: 100%;
+  background-color: #161815;
+}
+
+footer {
+  background-color: rgb(97, 51, 19);
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+footer i {
+  color: #fff;
+  font-size: 50px;
+  letter-spacing: 30px;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(97, 51, 19);
+  color: #fff;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: 40px;
+  box-shadow: 0 0 5px #fff;
+}
+
+@media only screen and (min-width: 0) and (max-width: 576px) {
+  .navbar-collapse {
+    background-color: rgba(97, 51, 19, 0);
+    display: flex;
+    justify-content: center !important;
+  }
+}/*# sourceMappingURL=estilos.css.map */

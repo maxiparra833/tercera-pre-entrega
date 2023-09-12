@@ -1,0 +1,83 @@
+.navbar{
+    height: 106px;
+    background-color:rgb(77, 77, 77);
+
+}
+
+.navbar-brand img{
+    height: 100px;
+
+}
+.nav-link{
+    color: gainsboro !important
+}
+.jumbotron{
+    height: 400px;
+    width: 100%;
+    background-image: url(img/coffee-beans-2258839_1920.png);
+    background-size: cover;
+    background-position: center;
+    filter: brightness(75%);
+    text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+
+}
+h2{
+    text-align:center;
+    background-color:dimgrey;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+}
+
+article{
+    border: 3px solid #000;
+    background-color:rgb(148, 81, 4);
+    text-align: center;
+
+}
+
+article{
+    font-size: 30px;
+}
+
+
+/*footer*/
+footer {
+    display:grid;
+    place-items:center;
+    padding: 50px 0;
+    height: 100%;
+    background-color: rgb(232, 168, 168);
+}
+footer{
+    background-color:#5a5a5a;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    height: 90px;
+    padding: 20px;
+    
+}
+
+footer p{
+    margin-bottom: 30px;
+}
+
+footer i{
+    color: black;
+    font-size: 50px;
+    letter-spacing: 30px;
+}
+
+.subir{
+    height: 40px;
+    width: 40px;
+    background-color:rgb(255, 255, 255);
+    color: #000000;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 28px;
+    box-shadow: 0 0 5px #000000;
+}

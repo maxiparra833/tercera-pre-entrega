@@ -1,0 +1,310 @@
+$font-family: Arial, Helvetica, sans-serif;
+$color_blanco: #fff;
+$ancho_max: 100%;
+$altura_max: 100%;
+$section-padding: 30px;
+$section-gap: 10px;
+$text-color: #000;
+$font-size: 15px;
+$font-weight: 500;
+$font-size-large: 40px;
+$letter-spacing: 2px;
+$margin-top: 25px;
+$line-height: 1.9;
+$background-color-dark: rgb(30, 29, 29);
+$border-radius: 10px;
+$navbar-bg-color: rgb(97, 51, 19);
+$jumbotron-bg-image: url(img/15487-cafe.jpg);
+$jumbotron-bg-size: cover;
+$jumbotron-bg-position: center;
+$jumbotron-filter: brightness(75%);
+$jumbotron-text-shadow: 0 0 5px #000, 0 0 5px #000, 0 0 5px #000;
+$footer-bg-color: #161815;
+$footer-font-size: 30px;
+$footer-icon-font-size: 50px;
+$footer-icon-letter-spacing: 30px;
+
+* {
+  font-family: $font-family;
+}
+
+body {
+  background: $color_blanco;
+  height: $altura_max;
+}
+
+.conteiner {
+  width: $ancho_max;
+  justify-content: space-between;
+}
+
+.container_nosotros {
+  padding-top: 15%;
+}
+
+.section-padding {
+  padding-top: $section-padding;
+  padding-bottom: $section-padding;
+  gap: $section-gap;
+}
+
+.section-padding2 {
+  padding-bottom: $section-padding;
+}
+
+.contact {
+  justify-content: center;
+}
+
+.crousel-item {
+  height: 80vh;
+  min-height: 200px;
+}
+
+.carousel-caption {
+  z-index: 2;
+}
+
+.carousel-caption h5 {
+  font-size: $font-size-large;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing;
+  margin-top: $margin-top;
+}
+
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: $font-size;
+  line-height: $line-height;
+}
+
+.crousel-inner::before {
+  content: '';
+  position: absolute;
+  width: $ancho_max;
+  height: $altura_max;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.856);
+  z-index: 1;
+}
+
+.navbar-nav a {
+  font-size: $font-size;
+  text-transform: uppercase;
+  font-weight: $font-weight;
+}
+
+.navbar-dark .navabr-bard {
+  color: $color_blanco;
+  font-size: $font-size-large;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: $letter-spacing;
+}
+
+.navbar-light .navabr-brand:focus, .navbar-light .navabr-bard:hover {
+  color: $text-color;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+.navar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.card-body {
+  height: 350px;
+  width: 300px;
+  justify-content: center;
+  align-self: center;
+}
+
+.card-body img {
+  height: 300px;
+  width: $ancho_max;
+}
+
+.boton_info {
+  width: 60%;
+  align-self: center;
+}
+
+.services .card-body i {
+  font-size: 50px;
+}
+
+.team .card-body i {
+  font-size: 20px;
+}
+
+.titulo_formulario {
+  font-family: $font-family;
+  text-align: center;
+  font-size: $font-size-large;
+  text-transform: uppercase;
+  letter-spacing: $letter-spacing;
+  margin-top: $margin-top;
+  line-height: $line-height;
+  background-color: $background-color-dark;
+  margin-bottom: 30px;
+  border-radius: $border-radius;
+  margin-top: 15%;
+}
+
+.row {
+  margin-left: 10px;
+}
+
+@media(max-width: 767px) {
+  .navabr-nav {
+    text-align: center;
+  }
+
+  .navbar-item {
+    height: 70vh;
+  }
+
+  .w-100 {
+    height: 90vh;
+  }
+
+  .carousel-item {
+    height: 400px;
+  }
+
+  .carousel-item img {
+    max-height: 400px;
+  }
+
+  .carousel-caption {
+    bottom: 125px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 17px;
+    background-color: #000;
+    border-radius: 10%;
+  }
+
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: $font-size;
+  }
+
+  .carousel-caption p {
+    width: $ancho_max;
+    line-height: 1.5;
+    font-size: 12px;
+    background-color: #000;
+    border-radius: 10%;
+  }
+
+  .about-text {
+    padding-top: 5opx;
+  }
+}
+.user_logo {
+  height: 100px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-top: 30%;
+  margin-right: 1%;
+}
+
+.navbar {
+  background-color: $navbar-bg-color;
+}
+
+.navbar-brand img {
+  height: 60px;
+}
+
+.nav-link {
+  color: $color_blanco !important;
+}
+
+.jumbotron {
+  height: 400px;
+  width: $ancho_max;
+  background-image: $jumbotron-bg-image;
+  background-size: $jumbotron-bg-size;
+  background-position: $jumbotron-bg-position;
+  filter: $jumbotron-filter;
+  text-shadow: $jumbotron-text-shadow;
+}
+
+h2 {
+  text-align: center;
+  background-color: $background-color-dark;
+  color: $text-color;
+  padding: 30px;
+}
+
+.carousel {
+  justify-content: center !important;
+  height: 800px;
+  width: $ancho_max;
+}
+
+article {
+  border: 3px solid $text-color;
+  background-color: $color_blanco;
+  text-align: center;
+  font-size: $font-size-large;
+}
+
+/*footer*/
+footer {
+  display: grid;
+  place-items: center;
+  padding: 50px 0;
+  height: $altura_max;
+  background-color: $footer-bg-color;
+}
+
+footer {
+  background-color: $navbar-bg-color;
+  color: $color_blanco;
+  text-align: center;
+  font-size: $footer-font-size;
+  padding: 20px;
+}
+
+footer p {
+  margin-bottom: 20px;
+}
+
+footer i {
+  color: $color_blanco;
+  font-size: $footer-icon-font-size;
+  letter-spacing: $footer-icon-letter-spacing;
+}
+
+.subir {
+  height: 40px;
+  width: 40px;
+  background-color: $navbar-bg-color;
+  color: $color_blanco;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  text-align: center;
+  line-height: 40px;
+  font-size: $font-size-large;
+  box-shadow: 0 0 5px $color_blanco;
+}
+
+@media only screen and (min-width: 0) and (max-width: 576px) {
+  .navbar-collapse {
+    background-color: rgba($navbar-bg-color, 0);
+    display: flex;
+    justify-content: center !important;
+  }
+}

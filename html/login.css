@@ -1,0 +1,21 @@
+/* Estiliza el botón */
+.btn {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-left: 100px;
+    width: 300px;
+
+
+}
+
+
+/* Aplica la animación al botón al pasar el cursor sobre él */
+.btn:hover {
+    transform: scale(1.1); /* Escala el botón al 110% del tamaño original */
+}
